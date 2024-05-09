@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="FP.css">
+    <head>
+        <title>Cherry's Spice and Bakery</title>
+        <div class="header">
+            <a href="https://maps.app.goo.gl/3xDsz1hg1MtNpANm9" class="logo">Cherry's Spice and Bakery</a>
+            <div class="header-right">
+              <a class="active" href="file:///C:/WebsiteF/FP.html">Home</a>
+              <a href="file:///C:/WebsiteF/Order.html">Order Here</a>
+              <a href="file:///C:/WebsiteF/Rating.html">Rate Me!</a>
+              <div class="dropdown">
+                <button class="dropbtn">Contact us</button>
+                    <div class="dropdown-content">
+                        <a href="https://www.facebook.com/cherie.paing">Facebook</a>
+                        <a>Number ito</a>
+                </div>
+               </div>
+            </div>
+          </div>
+          
+        <body>
+          <div class="About">
+            <h1>About</h1>
+            <p>A store that was built by my aunt who learned how to bake bread</p><p> It was first made on 2015 or longer.</p>
+          </div> 
+<div class="chep">
+  <img src="chep.png" alt="chep">
+</div>
+<div class="slideshow-container"> 
+  <div class="mySlides fade">
+    <img src="tinapay1.jpg">
+  </div>
+  <div class="mySlides fade">
+    <img src="tinapay2.jpg">
+  </div>
+  <div class="mySlides fade">
+    <img src="tinapay3.jpg">
+  </div>
+  <div class="mySlides fade">
+    <img src="tinapay4.jpg">
+  </div>
+  <div class="mySlides fade">
+    <img src="tinapay5.jpg">
+  </div>
+  <div class="mySlides fade">
+    <img src="tinapay6.jpg">
+  </div>
+  <script>
+ let slideIndex = 0;
+showSlides();
+
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}
+  slides[slideIndex-1].style.display = "block";
+  setTimeout(showSlides, 4000);
+}
+  </script>
+
+  <p></p>
+  <p></p>
+  <p></p>
+  
+     <div class="footer">
+      &copy;Cherry's Spice And Bakery
+    </div>
+        </body>
+    </head>
+    
+</html>
